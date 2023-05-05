@@ -1,0 +1,60 @@
+
+    
+
+
+
+#fm{
+    background-color: aqua;
+}
+
+body{
+    background-color: gray;
+    background-image: url("Images/photos/welcome.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#fm{
+    color: aqua;
+}
+
+#heads{
+    color: white;
+}
+#maindiv{
+    background-color: black;
+    color:white;
+}
+
+
+
+
+#card{
+    color: black;
+}
+#sidediv{
+    background-image: url(Images/photos/neymarpumaboot.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#top2{
+    text-align: left;
+    
+    
+}
+#intro{
+    color: blue;
+    
+}
+
+
+#firstheader{
+    background-color: white;
+    color: black;
+}
+#end{
+
+    color: blueviolet;
+}

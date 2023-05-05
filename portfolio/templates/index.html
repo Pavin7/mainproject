@@ -1,0 +1,186 @@
+{% load static %}
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let's play</title><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="{% static 'index.css' %}">
+</head>
+<body>
+<div class="container" id="maindiv">
+    <header id="firstheader">
+       
+       <h1 id="top2">Hello</h1>
+       <img src= "{% static 'Images/photos/welcome.jpg' %}" alt="" width="1300px" height="400px" >
+       <!--spinner-->  
+       <h1 id="top2">To Pavin Sports</h1>
+       
+       <!--spinner-->
+       <div class="row">
+        <div class="col-md-6">  
+       
+       <img src="{% static 'Images/photos/eplball1.png' %}" alt="" height="400px" width="600px">
+       </div>
+       <div class="col-md-6" id="intro">
+       <P>Hello our beloved customer,welcome to our Pavin Sports,the home of all your amazing sports accessories and clothing,We are a leading sportswear powerhouse since 2015 offering the best quality from the leading brands, pick what captivates you and makes you comfortable,ENJOY!</P>
+       <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi, voluptatum, rerum odit dicta labore, consectetur facere soluta facilis fuga quis unde quam laboriosam totam nam excepturi. Accusamus quos officia natus.
+       Ex tempora, harum culpa sint velit voluptatum repellat illo dicta debitis ullam, laudantium officia, suscipit minima soluta voluptas sunt commodi dolorem modi fugit adipisci eaque consectetur? Odio cumque omnis nobis?
+       Reiciendis odio eum unde rerum sit animi aspernatur quod debitis ipsam veritatis atque quae nam rem quos distinctio error ex natus sequi illum veniam, dolore harum. Cupiditate itaque doloribus aliquam?
+       Quibusdam iste excepturi ad ipsam, dolores minima earum aut pariatur asperiores necessitatibus tenetur suscipit impedit beatae possimus aspernatur expedita. Excepturi, iusto labore doloribus obcaecati facere quis enim placeat natus blanditiis.</P>
+      </div>
+    </div>
+    </header><br><br>
+  <div class="row" id="sidediv"> 
+
+       <div class="col-md-3">
+         <h3>OUR ACTIVITIES</h3>
+          <ul>
+            <li>let all children play</li>
+            <li>Football for all(FIFA)</li>
+            <li>Hand hygiene for all (WHO)</li>
+            <li>Football Unites the World.</li>
+            <li> Education For All.</li>
+            <li> No Discrimination.</li>
+            <li> Bring the Moves.</li>
+            <li> Save the Planet.</li>
+           <li> Protect Children.</li>
+         </ul>
+         <div class="card" style="width: 18rem;" id="card">
+            <img src="{% static 'Images/photos/fifa.jpg' %}" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">FIFA PATNERSHIPS</h5>
+              <p class="card-text">Listed above are initiatives that we as an organisation donate 1% of our profit in order to assist FIFA in its goal to make the world a better place,If you would like to donate,kindly pressthe link below</p>
+              <a href="https://www.fifa.com/social-impact" class="btn btn-primary">FIFA INITIATIVES</a>
+            </div>
+          </div>
+       </div>
+        <div class="col-md-9">
+            <h1 id="heads">OUR COLLECTION</h1>
+            <h2>Cleats</h2>
+         <div class="row">
+               <!--start of dropdown-->
+               <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: green; background-color: orangered; width: 180px;">
+                  Adidas
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Nike</a></li>
+                  <li><a class="dropdown-item" href="#">Puma</a></li>
+                  <li><a class="dropdown-item" href="#">Under armour</a></li>
+                </ul>
+              </div>
+
+               <!--end-->
+               <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="{% static 'Images/photos/nikeslide.png'%}" class="d-block w-100" alt="..." data-bs-slide="5s">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="{% static 'Images/photos/pumasliddd.png'%}" class="d-block w-100" alt="..." data-bs-slide="5s">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+         </div>
+         <div class="row">
+                 <div class="col-md-6">
+                    <h2 id="heads">Football</h2>
+                    <!--start of dropdown-->
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: green; background-color: orangered; width: 180px;">
+                          Worldcup 
+                        </button>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Champions league</a></li>
+                          <li><a class="dropdown-item" href="#">Premier league</a></li>
+                          <li><a class="dropdown-item" href="#">FA</a></li>
+                        </ul>
+                      </div>
+                    <!--end of dropdown-->
+                    <img src="{% static 'Images/photos/ucl.jpg' %}" alt="" height="300em" width="480em">
+                 </div>
+               <div class="col-md-6">
+                   <h2 id="heads">Jersey</h2>
+                        <!--start dropdown-->
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"style="color: green; background-color: orangered; width: 180px;;" >
+                              ARSENAL
+                            </button>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Real Madrid</a></li>
+                              <li><a class="dropdown-item" href="#">Barcelona</a></li>
+                              <li><a class="dropdown-item" href="#">PSG</a></li>
+                            </ul>
+                          </div>
+                        <!--end dropdown-->
+                   <img src="{% static 'Images/photos/jerseys.jpg' %}" alt="" height="300em" width="480em" >
+               </div>
+       
+    
+        </div>
+      
+
+
+
+    </div>
+  </div><br><br><br>
+    
+     <div class="row" style="padding: 10px;" id="end">
+        <div class="col-md-4">
+            <h2 >Hope you had a great experience shopping with us,you are always welcome,Enjoy your day day</h2>
+        </div>
+        <div class="col-md-4">
+            <address> 
+            Contact Us <br>
+            PAVIN SPORTS <br>
+            Location <br>
+            Westlands <br>
+            00100 NAIROBI<br>
+            Email:Pavinsports@gmail.com <br>
+            phone:07123456789 <br>
+        </address> 
+       
+        </div>
+       
+        <div class="col-md-4" >
+            
+            <form>
+                
+                <legend>Open an account for a better experience with us</legend>
+                 
+                <div class="mb-3">
+                
+                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            
+              </form>
+            
+         </div>
+       </div>
+   
+</div>
+    
+</body>
+</html>
