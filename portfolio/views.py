@@ -6,3 +6,6 @@ from django.http import HttpResponse
 def fun(request):
     return render(request,"index.html")
 
+def abt(request):
+    return render(request,"about.html")
+
